@@ -152,7 +152,6 @@ table tbody tr td {
 }
 
 #globaldata h5 {
-    text-transform: uppercase;
     font-weight: bold;
     opacity: 98%;
 }
@@ -246,6 +245,72 @@ table tbody {
   display: flex;
 }
 /* [Bootstrap] Row with equal height columns */
+
+/* Start: Covid-19 Data for US */
+.covid-boxes-bg {
+  background-color: rgba(0,0,0,.075);
+}
+
+.covid-round-box {
+    background-image: url(../images/maps/box-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.covid-round-box span {
+    color: #fff;
+    opacity: 98%;
+    font-weight: bold;
+}
+
+.map-img-cvr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-img {
+    max-width: 300px;
+    width: 100%;
+    opacity: 90%;
+}
+
+.covid_usa_updates {
+    margin-top: 8% !important;
+}
+
+/* End: Covid-19 Data for US */
+  
+/* Start: Covid-19 Data for Pakistan
+
+    Working as globally previous classes for Covid round boxes
+
+   End: Covid-19 Data for Pakistan */
+
+/* Start: Covid-19 Data for UK 
+
+    Working as globally previous classes for Covid round boxes
+
+   End: Covid-19 Data for UK */
+
+/* Start: Covid-19 Data for China 
+
+    Working as globally previous classes for Covid round boxes
+
+   End: Covid-19 Data for China */
+
+/* Start: Covid Clearfix */
+.cvd-clearfix hr {
+    border-bottom: 1px solid rgb(130, 91, 58);
+    width: 60%;
+}
+/* End: Covid Clearfix */
 
 /* Start: Global Footer */
 footer {

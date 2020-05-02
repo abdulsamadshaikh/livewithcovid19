@@ -2,6 +2,30 @@
 Start By Abdul: Media Queries for Covid-19 App
 ------------------------------------------ ***/
 
+/** Medium Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 991px) {
+  .covid-round-box span h1 {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+}
+
+/** Medium Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 881px) {
+  .covid-round-box span h1 {
+      font-size: 22px;
+    }
+    .covid-round-box span h5 {
+        font-size: 16px;
+    }
+}
+
 /** Small Devices 
 Note: These are custom classes. We have made these only for Covid-19 Project. 
 Keep separate from Bootstrap-4 core classes!
@@ -30,6 +54,25 @@ Keep separate from Bootstrap-4 core classes!
   table tbody tr td {
       font-size: 14px;
       line-height: 18px;
+  }
+  .covid-round-box {
+    min-height: 300px;
+    height: 100%;
+  }
+  .map-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .covid-round-box {
+    background-size: 300px !important;
+  }
+  .covid-round-box span h1 {
+      font-size: 34px;
+      margin-bottom: 5px;
+  }
+  .covid-round-box span h5 {
+      font-size: 24px;
   }
    footer {
     	flex-wrap: wrap;
@@ -78,6 +121,70 @@ Keep separate from Bootstrap-4 core classes!
   .cvd-spacing-sm-around {
     padding: 4rem !important;
   }
+  .cvd-spacing-tb-sm {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .cvd-spacing-lr-sm {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+  .cvd-spacing-t-sm {
+    padding-top: 4rem !important;
+  }
+  .cvd-spacing-b-sm-around {
+    padding-bottom: 4rem !important;
+  }
+  .cvd-margin-sm-around {
+    margin: 4rem !important;
+  }
+  .cvd-margin-tb-sm {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+  }
+  .cvd-margin-lr-sm {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+  }
+  .cvd-margin-t-sm {
+    margin-top: 4rem !important;
+  }
+  .cvd-margin-b-sm {
+    margin-bottom: 4rem !important;
+  }
+  .cvd-margin-sm-around-2 {
+    margin: 2rem !important;
+  }
+  .cvd-margin-tb-sm-2 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .cvd-margin-lr-sm-2 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .cvd-margin-t-sm-2 {
+    margin-top: 2rem !important;
+  }
+  .cvd-margin-b-sm-2 {
+    margin-bottom: 2rem !important;
+  }
+}
+
+/** Small Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 659px) {
+  .covid-round-box {
+    background-size: 90% !important;
+  }
+  .cvd-demand-t-spacing {
+    margin-top: 5% !important;
+  }
+  .cvd-demand-t-spacing-0 {
+    margin: 0% !important;
+  }
 }
 
 /** Extra Small Devices 
@@ -116,7 +223,13 @@ Keep separate from Bootstrap-4 core classes!
   .statsbyTitle {
     font-size: 20px;
   }
-.border-top-xs {
+  .covid-round-box {
+    background-size: 300px !important;
+  }
+  .cvd-demand-t-spacing {
+    margin-top: 5% !important;
+  }
+  .border-top-xs {
     border-top: 1px solid !important;
     border-color: rgba(130, 91, 58) !important;
   }

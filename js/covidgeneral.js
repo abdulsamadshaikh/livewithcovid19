@@ -73,6 +73,8 @@ function fetch(){
 				tableval.rows[i].cells[7].style.border = 'rgb(130, 91, 58)';
 				tableval.rows[i].cells[7].style.color = '#fff';
 
+				//console.log(tableval);
+
 			}
 		}
 		
