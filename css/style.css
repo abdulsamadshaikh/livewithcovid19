@@ -1,0 +1,398 @@
+/*  
+Project Name: Live With Covid-19
+Project URI: 
+Description: The Covid-19 App designed and developed for practicing purpose. It is an open-source project. You can freely use it for educational purposes. If you are intending to use it with your commercial projects then you will need permission.
+Author: Abdul Samad
+Author URI: https://www.linkedin.com/in/abdulsamad0fficial/
+Version: 0.1
+Tags: Mobile-friendly, Bootstrap-4, All-Devices-Supported. 
+Name: Live With Covid-19
+*/
+
+/*** -------------------------------------
+Start By Abdul: Custom Styling for Covid-19 App
+------------------------------------------ ***/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Covid-19 Fonts */
+@import url('./covidfonts.css');
+
+/* Media Queries */
+@import url('./media-queries.css');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(../images/bg.jpg) fixed #dea478 top center no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;    
+    }
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg.jpg) fixed #dea478 top center no-repeat;
+  background-size: cover;
+    z-index: 99999;
+}
+
+.covid-container {
+    max-width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Start: Global Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgba(0,0,0,.075);
+    margin-bottom: 40px;
+}
+
+header h2 {
+	margin: 0;
+}
+
+.tbl-header-fixed {
+  position: sticky;
+  top: 0;
+}
+
+.tbl-header-fixed th{
+  vertical-align: middle;
+  border: 0 !important;
+}
+
+table tbody tr td {
+  vertical-align: middle !important;
+}
+
+.brand {
+    color: #fff;
+    text-decoration: none;
+    opacity: 80%;
+    display: flex;
+    line-height: 22px;
+}
+
+.brand:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.logo-virus {
+    font-size: 22px;
+    color: rgb(240, 178, 137);
+}
+
+.logo-line-chart {
+    margin-left: 5px;
+    font-size: 22px !important;
+}
+
+.brand:hover .logo-virus,.logo-line-chart {
+    color: #fff;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.precautions-label {
+    color: #fff;
+}
+
+.precautions-label span {
+    opacity: 80%;
+    font-size: 25px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.precautions-label span:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+/* End: Global Header */
+
+/* Start: Global Data */
+#globaldataTitle {
+    color: #fff;
+    opacity: 98%;
+}
+
+.globaldataglobe {
+      font-size: 35px !important;
+      top: -2px;
+      position: relative;
+}
+
+#globaldata {
+    color: #fff;
+    opacity: 98%;
+}
+
+#globaldata h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 98%;
+}
+
+.global-bdr-clr {
+  border-color: rgba(130, 91, 58) !important;
+}
+
+.after-bdr-left::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    bottom: 0;
+    border-color: rgba(130, 91, 58);
+}
+
+.after-bdr-right::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 80%;
+    bottom: 0;
+    border-color: rgba(130, 91, 58);
+}
+
+/* End: Global Data */
+
+/* Start: Stats By Country */
+.statsbyTitle {
+    color: #fff;
+    text-decoration: none;
+    opacity: 80%;
+    display: flex;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.statsbyTitle:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+/* End: Stats By Country */
+
+/* Start: Countries Search Box */
+#searchBox {
+    position: relative;
+}
+
+#countrySearch {
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid rgba(130, 91, 58);
+}
+
+#countrySearch::placeholder {
+    color: #fff;
+    opacity: 75%;
+}
+
+/* End: Countries Search Box */
+
+/* Start: Countries Data Table */
+table tbody {
+	display: table;
+    width: 100%;
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	max-height: 415px;
+	overflow: auto;
+	width: 100%;
+}
+.table-wrapper-scroll-y {
+	display: block;
+}
+/* End: Countries Data Table */
+
+/* [Bootstrap] Row with equal height columns */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* [Bootstrap] Row with equal height columns */
+
+/* Start: Global Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: rgba(0,0,0,.075);
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer a {
+    color: #fff;
+    opacity: 80%;
+}
+
+footer a:hover {
+    color: #fff;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+footer p,i {
+    color: #fff;
+    opacity: 80%;
+}
+
+footer p,i:hover {
+    color: #fff;
+    opacity: 100%;
+}
+
+.logo-virus-bottom {
+    font-size: 14px !important;
+}
+
+footer a:hover .logo-virus-bottom {
+    color: #fff;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.covid-footer p {
+  margin-bottom: 0;  
+  text-align: right;
+  opacity: 80%;
+}
+
+.covid-footer p:hover {
+  opacity: 100%;
+}
+
+/* End: Global Footer */
+
+/* Scroll Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -o-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -ms-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -moz-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    box-shadow: inset 0 0 6px rgba(130, 91, 58); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(47,79,79); 
+    -o-box-shadow: inset 0 0 6px rgba(47,79,79);
+    -ms-box-shadow: inset 0 0 6px rgba(47,79,79);
+    -moz-box-shadow: inset 0 0 6px rgba(47,79,79);
+    box-shadow: inset 0 0 6px rgba(47,79,79);
+}
+
+#tableval {
+  scrollbar-color: #825b3a white; /* thumb and track color */
+  scrollbar-width: thin;
+}
+
+/* (values chosen for visual consistency with Firefox) */
+#tableval::-webkit-scrollbar {
+  width: 10px;
+}
+
+#tableval::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -o-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -ms-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    -moz-box-shadow: inset 0 0 6px rgba(130, 91, 58);
+    box-shadow: inset 0 0 6px rgba(130, 91, 58); 
+}
+
+#tableval::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(47,79,79); 
+    -o-box-shadow: inset 0 0 6px rgba(47,79,79);
+    -ms-box-shadow: inset 0 0 6px rgba(47,79,79);
+    -moz-box-shadow: inset 0 0 6px rgba(47,79,79);
+    box-shadow: inset 0 0 6px rgba(47,79,79);
+}
+
+/* Scroll Customization */
+
+.covid-load {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.covid-load:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  position: relative;
+  box-sizing: border-box;
+  border: 32px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: covid-load 1.2s infinite;
+}
+@keyframes covid-load {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}

@@ -1,0 +1,290 @@
+/*** -------------------------------------
+Start By Abdul: Media Queries for Covid-19 App
+------------------------------------------ ***/
+
+/** Small Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 767px) {
+  header {
+    flex-wrap: wrap;
+    padding-top: 10px;
+		padding-bottom: 10px;
+		min-height: 120px !important;
+	}
+  #globaldata h5 {
+      font-size: 16px;
+  }
+  .brand {
+  		justify-content: center;
+		align-items: center;
+	}
+  .text-right {
+    text-align: center !important;
+	}
+  .tbl-header-fixed th {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  table tbody tr td {
+      font-size: 14px;
+      line-height: 18px;
+  }
+   footer {
+    	flex-wrap: wrap;
+    	padding-top: 10px;
+		padding-bottom: 10px;
+		min-height: 80px !important;
+		text-align: center;
+	}
+  .covid-footer p {
+		text-align: center !important;
+    }
+  .after-bdr-left::after {
+    content: none !important;
+  }
+  .after-bdr-right::after {
+    content: none !important;
+  }
+  .border-top-sm {
+    border-top: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-right-sm {
+    border-right: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-bottom-sm {
+    border-bottom: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-left-sm {
+    border-left: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-sm-top-0 {
+    border-top: 0 !important;
+  }
+  .border-sm-right-0 {
+    border-right: 0 !important;
+  }
+  .border-sm-bottom-0 {
+    border-bottom: 0 !important;
+  }
+  .border-sm-left-0 {
+    border-left: 0 !important;
+  }
+  .cvd-spacing-sm-around {
+    padding: 4rem !important;
+  }
+}
+
+/** Extra Small Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 575px) {
+  .brand {
+    background-color: #000000bd;
+    padding: 10px;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-virus {
+    font-size: 18px !important;
+  }
+  i.logo-line-chart {
+    font-size: 18px !important;
+  }
+  .precautions-label {
+    margin-top: 10px;
+  }
+  #globaldataTitle {
+    font-size: 32px;
+  }
+  i.globaldataglobe {
+    font-size: 26px !important;
+  }
+  .statsbyTitle {
+    font-size: 20px;
+  }
+.border-top-xs {
+    border-top: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-right-xs {
+    border-right: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-bottom-xs {
+    border-bottom: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-left-xs {
+    border-left: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-xs {
+    border: 1px solid !important;
+    border-color: rgba(130, 91, 58) !important;
+  }
+  .border-xs-top-0 {
+    border-top: 0 !important;
+  }
+  .border-xs-right-0 {
+    border-right: 0 !important;
+  }
+  .border-xs-bottom-0 {
+    border-bottom: 0 !important;
+  }
+  .border-xs-left-0 {
+    border-left: 0 !important;
+  }
+  .mtblr-xs-0 {
+    margin: 0 !important;
+  }
+  .mt-xs-0 {
+    margin-top: 0 !important;
+  }
+  .mr-xs-0 {
+    margin-right: 0 !important;
+  }
+  .mb-xs-0 {
+    margin-bottom: 0 !important;
+  }
+  .ml-xs-0 {
+    margin-left: 0 !important;
+  }
+  .mtb-xs-2 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .mlr-xs-2 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .mt-xs-2 {
+    margin-top: 2rem !important;
+  }
+  .mr-xs-2 {
+    margin-right: 2rem !important;
+  }
+  .mb-xs-2 {
+    margin-bottom: 2rem !important;
+  }
+  .ml-xs-2 {
+    margin-left: 2rem !important;
+  }
+  .mtb-xs-4 {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+  }
+  .mlr-xs-4 {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+  }
+  .mt-xs-4 {
+    margin-top: 4rem !important;
+  }
+  .mr-xs-4 {
+    margin-right: 4rem !important;
+  }
+  .mb-xs-4 {
+    margin-bottom: 4rem !important;
+  }
+  .ml-xs-4 {
+    margin-left: 4rem !important;
+  }
+  .ptblr-xs-0 {
+    padding: 0 !important;
+  }
+  .pt-xs-0 {
+    padding-top: 0 !important;
+  }
+  .pr-xs-0 {
+    padding-right: 0 !important;
+  }
+  .pb-xs-0 {
+    padding-bottom: 0 !important;
+  }
+  .pl-xs-0 {
+    padding-left: 0 !important;
+  }
+  .ptb-xs-2 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .plr-xs-2 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  .pt-xs-2 {
+    padding-top: 2rem !important;
+  }
+  .pb-xs-2 {
+    padding-bottom: 2rem !important;
+  }
+  .pl-xs-2 {
+    padding-left: 2rem !important;
+  }
+  .pr-xs-2 {
+    padding-right: 2rem !important;
+  }
+  .ptb-xs-4 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .plr-xs-4 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+  .pt-xs-4 {
+    padding-top: 4rem !important;
+  }
+  .pb-xs-4 {
+    padding-bottom: 4rem !important;
+  }
+  .pl-xs-4 {
+    padding-left: 4rem !important;
+  }
+  .pr-xs-4 {
+    padding-right: 4rem !important;
+  }
+  .cvd-spacing-sm-around {
+    padding: 3rem !important;
+  }
+  .count {
+    font-size: 34px;
+  }
+}  
+
+/** Extra Small Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 420px) {
+  .statsbyTitle {
+    font-size: 18px;
+  }
+  .statsbyTitle i {
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  .precautions-label span {
+    padding: 0 5px !important;
+  }
+  #countrySearch {
+    font-size: 14px;
+  }
+  table tbody tr td {
+    font-weight: 400 !important;
+  }
+}  

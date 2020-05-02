@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live With Covid-19 | Daily Updates</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <!-- Bootstrap Core CSS File-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- Awesome Fonts -->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+<body onload="fetch(); myFunction();">
+   <div id="loading" class="covid-load"></div>
+      <!--Start: Global Header -->
+      <header class="container-fluid text-center">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <h3 class="text-uppercase">
+            <a class="brand" href="#brand" data-toggle="tooltip" title="Live With Covid-19">
+              C<i class="icon-virus-solid logo-virus"></i>
+              vide-19 Live Data <i class="fa fa-line-chart logo-line-chart"></i>
+            </a>
+          </h3>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 text-right precautions-label">
+            <span class="icon-people-arrows-solid" data-toggle="tooltip" title="No Hand Shake"></span>
+            <span class="icon-handshake-alt-slash-solid" data-toggle="tooltip" title="Keep Your Social Distance"></span>
+            <span class="icon-hands-wash-solid" data-toggle="tooltip" title="Washing Your Hands"></span>
+            <span class="icon-house-user-solid" data-toggle="tooltip" title="Stay At Home"></span>
+            <span class="icon-laptop-house-solid" data-toggle="tooltip" title="Work From Home"></span>
+            <span class="icon-shield-virus-solid" data-toggle="tooltip" title="Keep Protected!"></span>
+        </div>
+      </header>
+      <!--End: Global Header -->
+
+      <!--Start: Covid-19 Global Live data -->
+      <section class="covid-container container covid_global_updates pt-5 pb-5 pt-xs-0 plr-xs-2 cvd-spacing-sm-around">
+        <h1 id="globaldataTitle" class="text-uppercase text-center mb-5 mb-xs-2">Gl<i class="fa fa-globe globaldataglobe" aria-hidden="true"></i>bal Data</h1>
+        <div id="globaldata" class="row mt-col-4 mb-col-4 mt-sm-4 mb-sm-4 m-md-4 m-lg-4 m-xl-4 text-center row-eq-height">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-5 border-right border-xs-right-0 after-bdr-left border-bottom-sm pb-xs-2 global-bdr-clr">
+            <span>
+              <h1 id="globalNC" class="text-uppercase count"></h1>
+            </span>
+            <span>
+              <h5>New Confirmed</h5>
+            </span>
+          </div>
+
+           <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-5 border-bottom ptb-xs-2 global-bdr-clr">
+            <span>
+              <h1 id="globalND" class="text-uppercase count" data-to-value="3326314"></h1>
+            </span>
+            <span>
+              <h5>New Deaths</h5>
+            </span>
+          </div>
+
+           <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-5 border-left after-bdr-right global-bdr-clr border-sm-left-0 border-right-sm border-bottom-sm pt-sm-5 pt-md-0 border-xs-right-0 ptb-xs-2">
+            <span>
+              <h1 id="globalRC" class="text-uppercase count"></h1>
+            </span>
+            <span>
+              <h5>New Recovered</h5>
+            </span>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-5 pb-sm-5 pb-md-0 border-right border-sm-right-0 border-bottom-sm ptb-xs-2 global-bdr-clr">
+            <span>
+              <h1 id="globalTC" class="text-uppercase count"></h1>
+            </span>
+            <span>
+              <h5>Total Confirmed</h5>
+            </span>
+          </div>
+         
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-5 border-right-sm border-bottom-xs border-xs-right-0 ptb-xs-2">
+            <span>
+              <h1 id="globalTD" class="text-uppercase count"></h1>
+            </span>
+            <span>
+              <h5>Total Deaths</h5>
+            </span>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-5 border-left border-sm-left-0 global-bdr-clr pt-xs-2">
+            <span>
+              <h1 id="globalTR" class="text-uppercase count"></h1>
+            </span>
+            <span>
+              <h5>Total Recovered</h5>
+            </span>
+          </div>
+         </div>
+      </section>
+      <!--End: Covid-19 Global Live data -->
+
+      <!--Start: Covid-19 All Countries Live data -->
+      <section class="covid-container container covid_countries_updates mt-4">
+                <h3 class="text-uppercase">
+                  <span class="statsbyTitle">
+                    C<i class="icon-virus-solid logo-virus"></i>
+                    vid-19 Stats By Country <i class="fa fa-line-chart logo-line-chart"></i>
+                  </span> 
+                </h3>
+                <div class="table-responsive"> 
+                  <div id="searchBox" class="pb-3">
+                    <input class="form-control" id="countrySearch" type="text" placeholder="Type country name to find a specific data...">
+                  </div>
+                    <table id="tableval" class="table table-bordered table-striped text-center table-wrapper-scroll-y my-custom-scrollbar mb-0">
+                          <tr class="tbl-header-fixed">
+                            <th>Country/Region</th>
+                            <th>Date</th>
+                            <th>New Confirmed</th>
+                            <th>New Deaths</th>
+                            <th>New Recovered</th>
+                            <th>Total Confirmed</th>
+                            <th>Total Deaths</th>
+                            <th>Total Recovered</th>
+                         </tr>
+                    </table>
+            </div>
+      </section>
+      <!--End: Covid-19 All Countries Live data -->
+
+      <!--Start: Global Footer -->
+      <footer class="container-fluid covid-footer">
+        <div class="col-12 col-md-6">
+          <a href="https://covid19api.com/" target="_blank">
+            Coronavirus C<i class="icon-virus-solid logo-virus-bottom"></i>VID19 API <i class="fa fa-external-link"></i>
+          </a>
+        </div>
+        <div class="col-12 col-md-6">
+           <p><i class="fa fa-connectdevelop" aria-hidden="true"></i> Developed by Abdul</p>
+        </div>
+      </footer>
+      <!--End: Global Footer -->
+
+    <!-- Custome JS file -->
+    <script src="js/custom.js"></script>
+    <!-- Covid-19 Global API JS file -->
+    <script src="js/covidglobal.js"></script>
+    <!-- Covid-19 General API JS file -->
+    <script src="js/covidgeneral.js"></script>    
+  </body>
+</html>
