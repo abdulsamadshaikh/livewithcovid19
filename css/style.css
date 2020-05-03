@@ -368,6 +368,34 @@ footer a:hover .logo-virus-bottom {
 
 /* End: Global Footer */
 
+/* Covid Modal */
+.covid-modal-content {
+    background-color: #000000db !important;
+    border: 1px solid rgba(130, 91, 58) !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 95%;
+}
+
+.covid-modal-header {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(130, 91, 58);
+}
+
+.covid-modal-header .modal-title i {
+    margin-right: 10px;
+}
+
+.covid-modal-header .close {
+    color: #ffff !important;
+    outline: none;
+}
+
 /* Scroll Customization */
 ::-webkit-scrollbar {
     width: 10px;
