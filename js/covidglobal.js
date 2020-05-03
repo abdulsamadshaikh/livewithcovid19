@@ -30,30 +30,30 @@ fetch('https://api.covid19api.com/summary')
   document.getElementById('globalRC').innerHTML = `${mydata.NewRecovered}`;
   document.getElementById('globalTR').innerHTML = `${mydata.TotalRecovered}`;
 
-  //USA Data Fetch
-  const mydatausa = actualdata.Countries[233];
-  document.getElementById('usaTC').innerHTML = `${mydatausa.TotalConfirmed}`;
-  document.getElementById('usaTD').innerHTML = `${mydatausa.TotalDeaths}`;
-  document.getElementById('usaTR').innerHTML = `${mydatausa.TotalRecovered}`;
-
-  //Pakistan Data Fetch
-  const mydatapk = actualdata.Countries[165];
-  document.getElementById('pkTC').innerHTML = `${mydatapk.TotalConfirmed}`;
-  document.getElementById('pkTD').innerHTML = `${mydatapk.TotalDeaths}`;
-  document.getElementById('pkTR').innerHTML = `${mydatapk.TotalRecovered}`;
-
-  //UK Data Fetch
-  const mydatauk = actualdata.Countries[232];
-  document.getElementById('ukTC').innerHTML = `${mydatauk.TotalConfirmed}`;
-  document.getElementById('ukTD').innerHTML = `${mydatauk.TotalDeaths}`;
-  document.getElementById('ukTR').innerHTML = `${mydatauk.TotalRecovered}`;
-
   //China Data Fetch
   const mydatachina = actualdata.Countries[45];
   document.getElementById('chinaTC').innerHTML = `${mydatachina.TotalConfirmed}`;
   document.getElementById('chinaTD').innerHTML = `${mydatachina.TotalDeaths}`;
   document.getElementById('chinaTR').innerHTML = `${mydatachina.TotalRecovered}`;
-  console.log(actualdata);
+  //console.log(actualdata);
+
+  //Pakistan Data Fetch
+  const mydatapk = actualdata.Countries[167];
+  document.getElementById('pkTC').innerHTML = `${mydatapk.TotalConfirmed}`;
+  document.getElementById('pkTD').innerHTML = `${mydatapk.TotalDeaths}`;
+  document.getElementById('pkTR').innerHTML = `${mydatapk.TotalRecovered}`;
+
+  //UK Data Fetch
+  const mydatauk = actualdata.Countries[235];
+  document.getElementById('ukTC').innerHTML = `${mydatauk.TotalConfirmed}`;
+  document.getElementById('ukTD').innerHTML = `${mydatauk.TotalDeaths}`;
+  document.getElementById('ukTR').innerHTML = `${mydatauk.TotalRecovered}`;
+
+  //USA Data Fetch
+  const mydatausa = actualdata.Countries[236];
+  document.getElementById('usaTC').innerHTML = `${mydatausa.TotalConfirmed}`;
+  document.getElementById('usaTD').innerHTML = `${mydatausa.TotalDeaths}`;
+  document.getElementById('usaTR').innerHTML = `${mydatausa.TotalRecovered}`;
 
 })
 

@@ -16,7 +16,6 @@ function fetch(){
 	$.get("https://api.covid19api.com/summary",
 
 		function (data){
-			// console.log(data['Countries'].length);
 			var tableval = document.getElementById('tableval');
 
 			for(var i=1; i<(data['Countries'].length); i++){
