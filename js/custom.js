@@ -11,7 +11,7 @@ Name: Live With Covid-19
 
 //Onload Caution Popup
 $(window).on('load',function(){
-    var delayMs = 0; // delay in milliseconds
+    var delayMs = 1500; // delay in milliseconds
 
     setTimeout(function(){
         $('#onload').modal('show');
@@ -53,22 +53,3 @@ var preloader = document.getElementById('loading');
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
-
-
-// function numberWithCommas(number) {
-//     var parts = number.toString().split(".");
-//     parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-//     return parts.join(".");
-// }
-// $(document).ready(function() {
-//   $("#usaTC").each(function() {
-//     var num = $(this).text();
-//     var commaNum = numberWithCommas(num);
-//     $(this).text(commaNum);
-//   });
-// });
-
-
-// var = usaTC;
-// document.body.innerHTML = usaTC.toLocaleString();
-// // 1,557,564,534
