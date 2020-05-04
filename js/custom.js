@@ -11,7 +11,7 @@ Name: Live With Covid-19
 
 //Onload Caution Popup
 $(window).on('load',function(){
-    var delayMs = 1500; // delay in milliseconds
+    var delayMs = 5000; // delay in milliseconds
 
     setTimeout(function(){
         $('#onload').modal('show');
