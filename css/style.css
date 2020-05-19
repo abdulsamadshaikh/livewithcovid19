@@ -395,6 +395,18 @@ footer a:hover .logo-virus-bottom {
     outline: none;
 }
 
+.covid-modal-content .modal-body a {
+  text-decoration: none;
+  color: red;
+  opacity: 80%;
+}
+
+.covid-modal-content .modal-body a:hover {
+  text-decoration: none;
+  color: red;
+  opacity: 1000%;
+}
+
 /* Covid Map */
 .covid_countries-map-btn-cvr {
   justify-content: center;
