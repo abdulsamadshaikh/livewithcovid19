@@ -34,19 +34,19 @@ Keep separate from Bootstrap-4 core classes!
   header {
     flex-wrap: wrap;
     padding-top: 10px;
-		padding-bottom: 10px;
-		min-height: 120px !important;
-	}
+    padding-bottom: 10px;
+    min-height: 120px !important;
+  }
   #globaldata h5 {
       font-size: 16px;
   }
   .brand {
-  		justify-content: center;
-		align-items: center;
-	}
+      justify-content: center;
+    align-items: center;
+  }
   .text-right {
     text-align: center !important;
-	}
+  }
   .tbl-header-fixed th {
     font-size: 14px;
     line-height: 18px;
@@ -75,14 +75,14 @@ Keep separate from Bootstrap-4 core classes!
       font-size: 24px;
   }
    footer {
-    	flex-wrap: wrap;
-    	padding-top: 10px;
-		padding-bottom: 10px;
-		min-height: 80px !important;
-		text-align: center;
-	}
+      flex-wrap: wrap;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 80px !important;
+    text-align: center;
+  }
   .covid-footer p {
-		text-align: center !important;
+    text-align: center !important;
     }
   .after-bdr-left::after {
     content: none !important;
@@ -184,6 +184,12 @@ Keep separate from Bootstrap-4 core classes!
   .ml-sm-0 {
     margin-left: 0 !important;
   }
+  .covid-map-btn {
+    margin-bottom: 10px;
+  }
+  .covid-map-btn button {
+    font-size: 18px;
+  }
 }
 
 /** Small Devices 
@@ -199,6 +205,35 @@ Keep separate from Bootstrap-4 core classes!
   }
   .cvd-demand-t-spacing-0 {
     margin-top: 0% !important;
+  }
+}
+
+/** Small Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 600px) {
+  .covid_countries-map-btn-cvr {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+  }
+  .breaker {
+      max-width: 100%;
+      width: 100%;
+      text-align: center;
+  }
+  .statsbyTitle {
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .covid-map-btn {
+    text-align: center !important;
+  }
+  .covid-map-btn button {
+    max-width: 80%;
+    width: 100%;
   }
 }
 

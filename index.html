@@ -106,12 +106,20 @@
 
       <!--Start: Covid-19 All Countries Live data -->
       <section class="covid-container container covid_countries_updates mt-4">
-                <h3 class="text-uppercase">
-                  <span class="statsbyTitle">
-                    C<i class="icon-virus-solid logo-virus"></i>
-                    vid-19 Stats By Country <i class="fa fa-line-chart logo-line-chart"></i>
-                  </span> 
-                </h3>
+              <div class="row covid_countries-map-btn-cvr">
+                <div class="col-12 col-sm-8 col-md-7 col-lg-7 col-xl-7 breaker">
+                    <h3 class="text-uppercasecol-12 pl-0">
+                      <span class="statsbyTitle">
+                        C<i class="icon-virus-solid logo-virus"></i>
+                        vid-19 Stats By Country <i class="fa fa-line-chart logo-line-chart"></i>
+                      </span> 
+                    </h3>
+                </div>
+                <div class=" col-12 col-sm-4 col-md-5 col-lg-5 col-xl-5 covid-map-btn breaker">
+                    <!-- Trigger the Ciovid Map with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#coid-widget">View Covid Map</button>
+                </div>
+              </div>
                 <div class="table-responsive"> 
                   <div id="searchBox" class="pb-3">
                     <input class="form-control" id="countrySearch" type="text" placeholder="Type country name to find a specific data...">
@@ -313,6 +321,27 @@
                 </div>
               </div>
             </div>
+        </div>
+
+        <!-- Covid Map Modal -->
+        <div id="coid-widget" class="modal fade" role="dialog">
+          <div class="modal-dialog covid-map-container">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <!-- <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div> -->
+              <div class="modal-body">
+                <iframe src="https://www.bing.com/covid?ref=livewithcovid19" class="covid-map-iframe"></iframe>
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div> -->
+            </div>
+
+          </div>
         </div>
 
     <!-- Custome JS file -->
