@@ -330,7 +330,11 @@
             <div class="modal-content">
               <div class="modal-body">
                 <button type="button" class="close covid-close-btn" data-dismiss="modal">&times;</button>
-                  <iframe id="covid-frame" class="covid-map-iframe" src="" scrolling="no"></iframe>
+                  <iframe id="covid-frame" class="covid-map-iframe" src="" scrolling="no">
+                    <style type="text/css">
+                      .header {display: none !important;}
+                    </style>
+                  </iframe>
               </div>
             </div>
           </div>
