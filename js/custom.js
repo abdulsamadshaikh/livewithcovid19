@@ -61,6 +61,6 @@ $(document).ready(function(){
 //       });
 
 
-$(document).ready(function(){
+$('#coid-widget-btn').click(function () {
    $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
 });
