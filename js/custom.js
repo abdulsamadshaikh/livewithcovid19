@@ -60,7 +60,7 @@ $(document).ready(function(){
 //    console.log(windowURL);
 //    if (windowURL.indexOf('livewithcovid') > -1) {
 //      $('#main').css('display', 'none');
-//      //$('#footer').css('display', 'none');
+//      $('#footer').css('display', 'none');
 //    }
 // });
 
