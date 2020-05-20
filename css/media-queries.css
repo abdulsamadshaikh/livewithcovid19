@@ -7,7 +7,7 @@ Note: These are custom classes. We have made these only for Covid-19 Project.
 Keep separate from Bootstrap-4 core classes!
 ***/
 @media only screen and (max-width: 1300px) {
-  #coid-widget {
+  div#coid-widget {
     padding-right: 17px;
     padding-left: 17px;
   }
@@ -437,6 +437,9 @@ Keep separate from Bootstrap-4 core classes!
   }
   .count {
     font-size: 34px;
+  }
+  div#coid-widget {
+    padding-left: 0;
   }
 }  
 
