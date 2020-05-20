@@ -57,15 +57,5 @@ $(document).ready(function(){
 //Iframe Src
 $(document).ready(function() {
    $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
-   //$('#covid-frame').contents().find('.upsellContainer').hide();
-    //$('#iframeID').contents().find('#toppanel').hide();
 });
 
-$(document).ready(function() {
-   var windowURL = window.location.href;
-   console.log(windowURL);
-   if (windowURL.indexOf('livewithcovid') > -1) {
-     $('.header').css('display', 'none');
-     //$('#footer').css('display', 'none');
-   }
-});
