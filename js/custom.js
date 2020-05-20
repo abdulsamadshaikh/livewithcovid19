@@ -55,11 +55,6 @@ $(document).ready(function(){
 });
 
 
-//Iframe Src
-$('#coid-widget-btn').click(function () {
-   $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
-});
-
 // $(document).ready(function() {
 //    var windowURL = window.location.href;
 //    console.log(windowURL);
@@ -68,3 +63,8 @@ $('#coid-widget-btn').click(function () {
 //      //$('#footer').css('display', 'none');
 //    }
 // });
+
+//Iframe Src
+$('#coid-widget-btn').click(function () {
+   $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
+});
