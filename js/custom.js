@@ -57,5 +57,5 @@ $(document).ready(function(){
 
 //Iframe Src
 $("#coid-widget-btn").click(function () { 
-          $("#covid-frame").attr("src", "https://www.bing.com/covid/local/pakistan");
+          $("#covid-frame").attr("src", "https://www.bing.com/covid?ref=livewithcovid");
       });
