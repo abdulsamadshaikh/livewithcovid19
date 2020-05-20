@@ -59,3 +59,15 @@ $(document).ready(function(){
 $('#coid-widget-btn').click(function () {
    $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
 });
+
+
+
+
+var $head = $("#covid-frame").contents().find("head");
+
+$head.append($("<link/>", {
+    rel: "stylesheet",
+    href: url,
+    type: "text/css"
+}));
+
