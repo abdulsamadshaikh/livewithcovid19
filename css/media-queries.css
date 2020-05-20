@@ -2,6 +2,17 @@
 Start By Abdul: Media Queries for Covid-19 App
 ------------------------------------------ ***/
 
+/** Large Devices 
+Note: These are custom classes. We have made these only for Covid-19 Project. 
+Keep separate from Bootstrap-4 core classes!
+***/
+@media only screen and (max-width: 1300px) {
+  #coid-widget {
+    padding-right: 17px;
+    padding-left: 17px;
+  }
+}
+
 /** Medium Devices 
 Note: These are custom classes. We have made these only for Covid-19 Project. 
 Keep separate from Bootstrap-4 core classes!
