@@ -61,13 +61,3 @@ $('#coid-widget-btn').click(function () {
 });
 
 
-
-
-var $head = $("#covid-frame").contents().find("head");
-
-$head.append($("<link/>", {
-    rel: "stylesheet",
-    href: url,
-    type: "text/css"
-}));
-
