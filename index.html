@@ -18,11 +18,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <style type="text/css">
-      [dir="ltr"] .header .logo {
-          pointer-events: none;
-      }
-    </style>
   </head>
 
 <body onload="fetch(); myFunction()">
@@ -335,7 +330,7 @@
             <div class="modal-content">
               <div class="modal-body">
                 <button type="button" class="close covid-close-btn" data-dismiss="modal">&times;</button>
-                  <iframe id="covid-frame" class="covid-map-iframe" src="" scrolling="no"></iframe>
+                  <iframe id="covid-frame" class="covid-map-iframe" src="" scrolling="no" sandbox></iframe>
               </div>
             </div>
           </div>
