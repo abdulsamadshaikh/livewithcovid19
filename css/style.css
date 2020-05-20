@@ -357,7 +357,7 @@ footer a:hover .logo-virus-bottom {
 
 .covid-footer p {
   margin-bottom: 0;  
-  text-align: right;
+  text-align: center;
   opacity: 80%;
 }
 
@@ -413,10 +413,6 @@ footer a:hover .logo-virus-bottom {
   align-items: center;
 }
 
-#coid-widget {
-    padding-right: 0 !important;
-}
-
 .covid-map-container {
       max-width: 1280px;
       width: 100%;
@@ -427,6 +423,12 @@ footer a:hover .logo-virus-bottom {
       min-height: 550px; 
       height: 100%;
       border: none;
+      background: rgba(234, 234, 234, 0.99);
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
 }
 
 .covid-map-btn {
@@ -468,6 +470,29 @@ footer a:hover .logo-virus-bottom {
     color: rgb(255, 255, 255);
     border: 1px solid rgba(130, 91, 58);
     box-shadow: none;
+}
+
+.covid-close-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #000 !important;
+    color: #fff;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.covid-close-btn:hover { 
+    color: #fff;
+}
+
+#coid-widget .modal-content {
+    background-color: #ffffff50;
 }
 
 /* Scroll Customization */

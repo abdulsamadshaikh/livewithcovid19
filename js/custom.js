@@ -53,3 +53,9 @@ var preloader = document.getElementById('loading');
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
+
+
+//Iframe Src
+$("#coid-widget-btn").click(function () { 
+          $("#covid-frame").attr("src", "https://www.bing.com/covid?ref=livewithcovid");
+      });
