@@ -56,6 +56,11 @@ $(document).ready(function(){
 
 
 //Iframe Src
-$("#coid-widget-btn").click(function () { 
-          $("#covid-frame").attr("src", "https://www.bing.com/covid?ref=livewithcovid");
-      });
+// $("#coid-widget-btn").click(function () { 
+//           $("#covid-frame").attr("src", "https://www.bing.com/covid?ref=livewithcovid");
+//       });
+
+
+$(document).ready(function(){
+   $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
+});
