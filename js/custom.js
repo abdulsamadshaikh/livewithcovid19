@@ -54,13 +54,16 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
 
-//Iframe Src
+//Map Src
 $(document).ready(function() {
    $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
 });
 
-//Developer Text
+//Developed by Abdul
 $(document).ready(function(){
+    //Developer credit text
     $("#d-by").append(' <a href="https://www.linkedin.com/in/abdulsamad0fficial/">Developed by Abdul</a>');
     $("#d-by a").attr("target", "_blank");
+    //Developer mail
+    $(".covid-modal-content .modal-body a").attr("href", "mailto:abdulsamad.dnd@gmail.com");
 });
