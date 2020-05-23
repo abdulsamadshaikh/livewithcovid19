@@ -32,6 +32,7 @@ body {
   background: url(../images/bg.jpg) fixed #dea478 top center no-repeat;
   background-size: cover;
   padding-bottom: 100px;
+  pointer-events: none;
 }
 
 * {
@@ -272,6 +273,7 @@ table tbody {
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
 .map-img {
