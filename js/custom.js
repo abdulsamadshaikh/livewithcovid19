@@ -69,6 +69,5 @@ $(document).ready(function(){
 });
 
 
-function loadImage() {
-    alert("Image is loaded");
-}
+
+
