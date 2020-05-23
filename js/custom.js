@@ -62,7 +62,7 @@ $(document).ready(function() {
 //Developed by Abdul
 $(document).ready(function(){
     //Developer credit text
-    $("#d-by").append(' <a href="https://www.linkedin.com/in/abdulsamad0fficial/">Developed by Abdul</a>'.attr("target", "_blank");
+    $("#d-by").append(' <a href="https://www.linkedin.com/in/abdulsamad0fficial/">Developed by Abdul</a>'.attr("target", "_blank"));
     //$("#d-by a").attr("target", "_blank");
     //Developer mail
     $(".covid-modal-content .modal-body a").attr("href", "mailto:abdulsamad.dnd@gmail.com");
