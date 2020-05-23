@@ -59,3 +59,8 @@ $(document).ready(function() {
    $('#covid-frame').attr('src', 'https://www.bing.com/covid?ref=livewithcovid');
 });
 
+//Developer Text
+$(document).ready(function(){
+    $("#d-by").append(' <a href="https://www.linkedin.com/in/abdulsamad0fficial/">Developed by Abdul</a>');
+    $("#d-by a").attr("target", "_blank");
+});
