@@ -67,3 +67,8 @@ $(document).ready(function(){
     //Developer mail
     $(".covid-modal-content .modal-body a").attr("href", "mailto:abdulsamad.dnd@gmail.com");
 });
+
+
+function loadImage() {
+    alert("Image is loaded");
+}
