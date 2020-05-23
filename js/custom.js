@@ -9,7 +9,7 @@ Tags: API, JavaScript, Jquery, Ajax, Mobile-friendly, Bootstrap-4, All-Devices-S
 Name: Live With Covid-19
 */
 
-//Onload Caution Popup
+//Onload Notice Popup
 $(window).on('load',function(){
     var delayMs = 5000; // delay in milliseconds
 
