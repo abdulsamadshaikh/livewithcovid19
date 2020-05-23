@@ -1,3 +1,13 @@
+/*  
+Project Name: Live With Covid-19
+Project URI: 
+Description: The Covid-19 App designed and developed for practicing purpose. It is an open-source project. You can freely use it for educational purposes. If you are intending to use it with your commercial projects then you will need permission.
+Author: Abdul Samad
+Author URI: https://www.linkedin.com/in/abdulsamad0fficial/
+Version: 0.1
+Tags: API, JavaScript, Jquery, Ajax, Mobile-friendly, Bootstrap-4, All-Devices-Supported. 
+Name: Live With Covid-19
+*/
 
 // Livewithcovid19 API's and custom JS Files
 function loadjscssfile(filename, filetype){
