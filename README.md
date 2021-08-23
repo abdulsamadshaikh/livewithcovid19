@@ -1,2 +1,2 @@
-# livewithcovid19.github.io
-The Covid-19 App designed and developed for practicing purpose. It is an open-source project. You can freely use it for educational purposes. If you are intending to use it with your commercial projects then you will need permission.
+# Live With Covid-19
+The Covid-19 App was designed and developed for practicing purposes. It is an open-source project. You are free to use or modify it without any warranty. Give me a thumbs-up, If you like it. Enjoy!
